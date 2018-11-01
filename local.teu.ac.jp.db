@@ -1,0 +1,10 @@
+$TTL    86400
+@    IN    SOA        srv1.local.teu.ac.jp.        root (
+        2018102901    ; Serial YYYYMMDDnn
+        3H        ; Refresh
+        1H        ; Retry
+        1W        ; Expire
+        1D )        ; Minimum
+;
+    IN    NS        srv1.local.teu.ac.jp.
+srv1    IN    A        172.0.0.2
